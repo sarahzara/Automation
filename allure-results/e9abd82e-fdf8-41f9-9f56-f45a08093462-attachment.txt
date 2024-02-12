@@ -1,0 +1,13 @@
+[ReportManager] Setting "targetOperatingSystem" property with "windows". @12-02-2024 11:39:49.0569 AM
+[ReportManager] Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {log: {level: warn}, profile: UEsDBBQACAgIAPhcTFgAAAAAAAA...}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, webSocketUrl: true} @12-02-2024 11:39:49.0648 AM
+[ReportManager] Attempting to run locally on: "windows | Firefox". @12-02-2024 11:39:49.0650 AM
+[ReportManager] Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection... @12-02-2024 11:39:49.0650 AM
+[ReportManager] Successfully Opened: "windows | Firefox". @12-02-2024 11:39:54.0757 AM
+[ReportManager] Initial window size: (1382, 744) @12-02-2024 11:39:54.0820 AM
+[ReportManager] Window size after SWD Maximize: (1382, 744) @12-02-2024 11:39:54.0830 AM
+[ReportManager] Window size after Toolkit: (1366, 768) @12-02-2024 11:39:55.0177 AM
+[ReportManager] Window size after WebDriver.Manage.Window: (1920, 1080) @12-02-2024 11:39:55.0220 AM
+[ReportManager] Maximize window "New screen size is now: (1920, 1080)". @12-02-2024 11:39:55.0246 AM
+[ReportManager] Target URL: "http://automationexercise.com" @12-02-2024 11:39:55.0291 AM
+[ReportManager] Initial URL: "about:blank" @12-02-2024 11:39:55.0376 AM
+[ReportManager] Navigate to url "http://automationexercise.com". @12-02-2024 11:40:00.0544 AM

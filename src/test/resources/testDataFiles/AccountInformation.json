@@ -1,0 +1,14 @@
+{
+  "Password_SignUP": "123456",
+  "DateDateofBirth_SignUP": "3",
+  "MonthsDateofBirth_SignUP": "April",
+  "YearsDateofBirth_SignUP": "1998",
+  "FirstName_SignUP": "Sara",
+  "LastName_SignUP": "Omara",
+  "Address1_SignUP": "Nasr City",
+  "Country_SignUP": "Canada",
+  "State_SignUP": "Cairo",
+  "City_SignUP": "cairo",
+  "ZipCode_SignUP": "12345",
+  "MobileNumber_SignUP": "0123456789"
+}

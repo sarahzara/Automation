@@ -1,0 +1,8 @@
+{
+  "CardName": "test",
+  "CardNumber": "22222",
+  "CVC": "222",
+  "MM_Expiration": "2",
+  "YYYY_Expiration": "1222",
+  "Assert_SuccessMessage":"Value Should be 'Your order has been placed successfully!"
+}

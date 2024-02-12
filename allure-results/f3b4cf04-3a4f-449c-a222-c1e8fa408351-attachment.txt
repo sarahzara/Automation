@@ -1,0 +1,53 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                        Test Method: 'CheckOutTests.CheckoutTest.loginBeforeCheckoutTc16'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Moved the mouse to the middle of the element. @12-02-2024 11:40:06.0509 AM
+[ReportManager] Click " Signup / Login". @12-02-2024 11:40:10.0130 AM
+[ReportManager] text cleared Using Native Clear @12-02-2024 11:40:10.0372 AM
+[ReportManager] Type "sarah124@gmail.com" into "Email Address". @12-02-2024 11:40:10.0407 AM
+[ReportManager] text cleared Using Native Clear @12-02-2024 11:40:10.0605 AM
+[ReportManager] Type "123456" into "Password". @12-02-2024 11:40:10.0618 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-02-2024 11:40:10.0847 AM
+[ReportManager] Click "Login". @12-02-2024 11:40:15.0619 AM
+[ReportManager] Scroll to element "By.xpath: /html/body/section[2]/div/div/div[2]/div[1]/div[3]/div/div[1]/div[2]". @12-02-2024 11:40:15.0847 AM
+[ReportManager] Hover over "By.xpath: /html/body/section[2]/div/div/div[2]/div[1]/div[3]/div/div[1]/div[2]". @12-02-2024 11:40:16.0179 AM
+[ReportManager] Get text "Rs. 400
+Men Tshirt
+Add to cart" from "By.xpath: /html/body/section[2]/div/div/div[2]/div[1]/div[3]/div/div[1]/div[2]". @12-02-2024 11:40:16.0385 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-02-2024 11:40:16.0662 AM
+[ReportManager] Click "Add to cart". @12-02-2024 11:40:16.0897 AM
+[ReportManager] Get text "Add to cart" from "Add to cart". @12-02-2024 11:40:17.0069 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-02-2024 11:40:17.0300 AM
+[ReportManager] Click "By.xpath: //u[normalize-space()='View Cart']". @12-02-2024 11:40:19.0253 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-02-2024 11:40:19.0545 AM
+[ReportManager] Click "Proceed To Checkout". @12-02-2024 11:40:21.0386 AM
+[ReportManager] Click "Place Order". @12-02-2024 11:40:22.0694 AM
+[ReportManager] text cleared Using Native Clear @12-02-2024 11:40:22.0988 AM
+[ReportManager] Type "test" into "By.xpath: //input[@name='name_on_card']". @12-02-2024 11:40:23.0022 AM
+[ReportManager] text cleared Using Native Clear @12-02-2024 11:40:23.0217 AM
+[ReportManager] Type "22222" into "By.xpath: //input[@name='card_number']". @12-02-2024 11:40:23.0232 AM
+[ReportManager] text cleared Using Native Clear @12-02-2024 11:40:23.0397 AM
+[ReportManager] Type "222" into "ex. 311". @12-02-2024 11:40:23.0412 AM
+[ReportManager] text cleared Using Native Clear @12-02-2024 11:40:23.0555 AM
+[ReportManager] Type "2" into "MM". @12-02-2024 11:40:23.0567 AM
+[ReportManager] text cleared Using Native Clear @12-02-2024 11:40:23.0691 AM
+[ReportManager] Type "1222" into "YYYY". @12-02-2024 11:40:23.0708 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-02-2024 11:40:23.0910 AM
+[ReportManager] Click "Pay and Confirm Order". @12-02-2024 11:40:27.0315 AM
+[ReportManager] Perform navigation action "Navigate BACK to https://automationexercise.com/payment". @12-02-2024 11:40:29.0197 AM
+[ReportManager] Waiting for element to be present; elementLocator "By.xpath: /html/body/section/div/div[3]/div/div[2]/form/div[4]/div/div", isExpectedToBeVisible"false"... @12-02-2024 11:40:29.0237 AM
+[ReportManager] Wait to be ready "Waited for the element's state of visibility to be (false). Element locator (By.xpath: /html/body/section/div/div[3]/div/div[2]/form/div[4]/div/div)" against "By.xpath: /html/body/section/div/div[3]/div/div[2]/form/div[4]/div/div". @12-02-2024 11:40:29.0295 AM
+[ReportManager] Get text "Your order has been placed successfully!" from "By.xpath: /html/body/section/div/div[3]/div/div[2]/form/div[4]/div/div". @12-02-2024 11:40:29.0434 AM
+[ReportManager] Moved the mouse to the middle of the element. @12-02-2024 11:40:29.0653 AM
+[ReportManager] Click "Pay and Confirm Order". @12-02-2024 11:40:32.0301 AM
+[ReportManager] Expected condition failed: waiting for com.shaft.gui.element.internal.ElementActionsHelper$$Lambda/0x000001809d7294d8@5dc9cb99 (tried for 60 second(s) with 100 milliseconds interval) || Unable to locate element: /html/body/section/div/div[3]/div/div[2]/form/div[4]/div/div @12-02-2024 11:41:32.0445 AM
+[ReportManager] Failed to Get text from "By.xpath: /html/body/section/div/div[3]/div/div[2]/form/div[4]/div/div". @12-02-2024 11:41:32.0463 AM
+[ReportManager] Assertion "ValidateElementAttribute" FAILED. Expected "Value Should be 'Value Should be 'Your order has been placed successfully!' for the 'text' attribute, element locator 'By.xpath: /html/body/section/div/div[3]/div/div[2]/form/div[4]/div/div'" and Actual "Failed to read the desired element attribute". Comparison Type "CONTAINS". Validation Type "POSITIVE". @12-02-2024 11:41:34.0716 AM
+[ReportManager] Assertion Failed: The Element located by "By.xpath: /html/body/section/div/div[3]/div/div[2]/form/div[4]/div/div" text contains "Value Should be 'Your order has been placed successfully!". @12-02-2024 11:41:34.0716 AM
+[ReportManager] Successfully created attachment 'Screenshot - 1707730892533_loginBeforeCheckoutTc16_ValidateElementAttribute_failed' @12-02-2024 11:41:34.0749 AM
+[ReportManager] Successfully created attachment 'Validation Test Data - Failure Reason' @12-02-2024 11:41:34.0751 AM
+[ReportManager] Assertion "ValidateElementAttribute" FAILED. Expected "Value Should be 'Value Should be 'Your order has been placed successfully!' for the 'text' attribute, element locator 'By.xpath: /html/body/section/div/div[3]/div/div[2]/form/div[4]/div/div'" and Actual "Failed to read the desired element attribute". Comparison Type "CONTAINS". Validation Type "POSITIVE". Root cause: "org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/section/div/div[3]/div/div[2]/form/div[4]/div/div" @12-02-2024 11:41:34.0756 AM
+[ReportManager] Successfully created attachment 'Validations helper - Get  stack  trace - Exception Stacktrace' @12-02-2024 11:41:34.0765 AM

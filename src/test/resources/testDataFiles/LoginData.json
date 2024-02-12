@@ -1,0 +1,13 @@
+{
+  "ValidLogin": {
+    "Email_Login": "sarah124@gmail.com",
+    "Password_Login": "123456"
+  },
+  "InvalidLogin": {
+    "Email_Login": "sa@gmail.com",
+    "Password_Login": "12"
+  },
+  "ErrorMessage": {
+    "errorMessage": "Your email or password is incorrect!"
+  }
+}

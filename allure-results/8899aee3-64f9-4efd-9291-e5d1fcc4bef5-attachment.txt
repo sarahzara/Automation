@@ -1,0 +1,185 @@
+[INFO ] 2024-02-12 11:39:46.766 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.8.1.20240115[22m                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-02-12 11:39:46.788 [main] ReportManager - Checking for engine updates...
+[INFO ] 2024-02-12 11:39:46.809 [main] ReportManager - Engine Update check done for the day. 👍
+[INFO ] 2024-02-12 11:39:47.902 [main] ReportManager - Loaded OpenCV "opencv_java490".
+[INFO ] 2024-02-12 11:39:47.903 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2024-02-12 11:39:48.125 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2024-02-12 11:39:48.837 [main] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2024-02-12 11:39:48.855 [main] ReportManager - TestNG run detected...
+[INFO ] 2024-02-12 11:39:49.204 [main] Utils - [TestNG] Running:
+  C:\Users\sara.omara\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+[INFO ] 2024-02-12 11:39:49.245 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-02-12 11:39:49.304 [main] ReportManager - Initializing Important Links...
+[INFO ] 2024-02-12 11:39:49.327 [main] ReportManager - Initializing Properties...
+[INFO ] 2024-02-12 11:39:49.538 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                 Starting execution of init configuration method                                                 
+                                                        'CheckOutTests.CheckoutTest.init'                                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-02-12 11:39:49.569 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-02-12 11:39:49.649 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {log: {level: warn}, profile: UEsDBBQACAgIAPhcTFgAAAAAAAA...}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, webSocketUrl: true}
+[INFO ] 2024-02-12 11:39:49.650 [main] ReportManager - Attempting to run locally on: "windows | Firefox".
+[INFO ] 2024-02-12 11:39:49.650 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2024-02-12 11:39:54.757 [main] ReportManager - Successfully Opened: "windows | Firefox".
+[INFO ] 2024-02-12 11:39:54.820 [main] ReportManager - Initial window size: (1382, 744)
+[INFO ] 2024-02-12 11:39:54.830 [main] ReportManager - Window size after SWD Maximize: (1382, 744)
+[INFO ] 2024-02-12 11:39:55.177 [main] ReportManager - Window size after Toolkit: (1366, 768)
+[INFO ] 2024-02-12 11:39:55.220 [main] ReportManager - Window size after WebDriver.Manage.Window: (1920, 1080)
+[INFO ] 2024-02-12 11:39:55.246 [main] ReportManager - Maximize window "New screen size is now: (1920, 1080)".
+[INFO ] 2024-02-12 11:39:55.291 [main] ReportManager - Target URL: "http://automationexercise.com"
+[INFO ] 2024-02-12 11:39:55.376 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-02-12 11:40:00.544 [main] ReportManager - Navigate to url "http://automationexercise.com".
+[INFO ] 2024-02-12 11:40:00.549 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: init'
+[INFO ] 2024-02-12 11:40:00.769 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                      Starting execution of prepare data checkout test configuration method                                      
+                                              'CheckOutTests.CheckoutTest.prepareDataCheckoutTest'                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-02-12 11:40:00.775 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "LoginData.json"".
+[INFO ] 2024-02-12 11:40:00.777 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/LoginData.json"".
+[INFO ] 2024-02-12 11:40:00.779 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/LoginData.json"".
+[INFO ] 2024-02-12 11:40:00.785 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-02-12 11:40:00.788 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/LoginData.json"".
+[INFO ] 2024-02-12 11:40:00.789 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/LoginData.json"".
+[INFO ] 2024-02-12 11:40:04.715 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/LoginData.json"".
+[INFO ] 2024-02-12 11:40:04.716 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/LoginData.json"".
+[INFO ] 2024-02-12 11:40:04.798 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "PaymentData.json"".
+[INFO ] 2024-02-12 11:40:04.800 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/PaymentData.json"".
+[INFO ] 2024-02-12 11:40:04.801 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/PaymentData.json"".
+[INFO ] 2024-02-12 11:40:04.826 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-02-12 11:40:04.828 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/PaymentData.json"".
+[INFO ] 2024-02-12 11:40:04.830 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/PaymentData.json"".
+[INFO ] 2024-02-12 11:40:04.883 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/PaymentData.json"".
+[INFO ] 2024-02-12 11:40:04.884 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/PaymentData.json"".
+[INFO ] 2024-02-12 11:40:04.948 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/PaymentData.json"".
+[INFO ] 2024-02-12 11:40:04.949 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/PaymentData.json"".
+[INFO ] 2024-02-12 11:40:05.010 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/PaymentData.json"".
+[INFO ] 2024-02-12 11:40:05.011 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/PaymentData.json"".
+[INFO ] 2024-02-12 11:40:05.073 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/PaymentData.json"".
+[INFO ] 2024-02-12 11:40:05.074 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/PaymentData.json"".
+[INFO ] 2024-02-12 11:40:05.128 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/PaymentData.json"".
+[INFO ] 2024-02-12 11:40:05.130 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/PaymentData.json"".
+[INFO ] 2024-02-12 11:40:05.190 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "NewUserSignup.json"".
+[INFO ] 2024-02-12 11:40:05.192 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/NewUserSignup.json"".
+[INFO ] 2024-02-12 11:40:05.194 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/NewUserSignup.json"".
+[INFO ] 2024-02-12 11:40:05.199 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-02-12 11:40:05.201 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/NewUserSignup.json"".
+[INFO ] 2024-02-12 11:40:05.203 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/NewUserSignup.json"".
+[INFO ] 2024-02-12 11:40:05.257 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/NewUserSignup.json"".
+[INFO ] 2024-02-12 11:40:05.258 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/NewUserSignup.json"".
+[INFO ] 2024-02-12 11:40:05.305 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "AccountInformation.json"".
+[INFO ] 2024-02-12 11:40:05.307 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountInformation.json"".
+[INFO ] 2024-02-12 11:40:05.309 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountInformation.json"".
+[INFO ] 2024-02-12 11:40:05.313 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-02-12 11:40:05.314 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountInformation.json"".
+[INFO ] 2024-02-12 11:40:05.316 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountInformation.json"".
+[INFO ] 2024-02-12 11:40:05.381 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountInformation.json"".
+[INFO ] 2024-02-12 11:40:05.382 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountInformation.json"".
+[INFO ] 2024-02-12 11:40:05.443 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountInformation.json"".
+[INFO ] 2024-02-12 11:40:05.444 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountInformation.json"".
+[INFO ] 2024-02-12 11:40:05.500 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountInformation.json"".
+[INFO ] 2024-02-12 11:40:05.501 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountInformation.json"".
+[INFO ] 2024-02-12 11:40:05.552 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountInformation.json"".
+[INFO ] 2024-02-12 11:40:05.553 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountInformation.json"".
+[INFO ] 2024-02-12 11:40:05.604 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountInformation.json"".
+[INFO ] 2024-02-12 11:40:05.605 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountInformation.json"".
+[INFO ] 2024-02-12 11:40:05.681 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountInformation.json"".
+[INFO ] 2024-02-12 11:40:05.682 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountInformation.json"".
+[INFO ] 2024-02-12 11:40:05.742 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountInformation.json"".
+[INFO ] 2024-02-12 11:40:05.743 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountInformation.json"".
+[INFO ] 2024-02-12 11:40:05.798 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountInformation.json"".
+[INFO ] 2024-02-12 11:40:05.800 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountInformation.json"".
+[INFO ] 2024-02-12 11:40:05.845 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountInformation.json"".
+[INFO ] 2024-02-12 11:40:05.846 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountInformation.json"".
+[INFO ] 2024-02-12 11:40:05.892 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountInformation.json"".
+[INFO ] 2024-02-12 11:40:05.893 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountInformation.json"".
+[INFO ] 2024-02-12 11:40:05.939 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountInformation.json"".
+[INFO ] 2024-02-12 11:40:05.940 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountInformation.json"".
+[INFO ] 2024-02-12 11:40:05.995 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: prepareDataCheckoutTest'
+[INFO ] 2024-02-12 11:40:06.058 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                        Test Method: 'CheckOutTests.CheckoutTest.loginBeforeCheckoutTc16'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-02-12 11:40:06.509 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-02-12 11:40:10.140 [main] ReportManager - Click " Signup / Login".
+[INFO ] 2024-02-12 11:40:10.373 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2024-02-12 11:40:10.407 [main] ReportManager - Type "sarah124@gmail.com" into "Email Address".
+[INFO ] 2024-02-12 11:40:10.605 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2024-02-12 11:40:10.618 [main] ReportManager - Type "123456" into "Password".
+[INFO ] 2024-02-12 11:40:10.847 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-02-12 11:40:15.621 [main] ReportManager - Click "Login".
+[INFO ] 2024-02-12 11:40:15.847 [main] ReportManager - Scroll to element "By.xpath: /html/body/section[2]/div/div/div[2]/div[1]/div[3]/div/div[1]/div[2]".
+[INFO ] 2024-02-12 11:40:16.180 [main] ReportManager - Hover over "By.xpath: /html/body/section[2]/div/div/div[2]/div[1]/div[3]/div/div[1]/div[2]".
+[INFO ] 2024-02-12 11:40:16.386 [main] ReportManager - Get text "Rs. 400
+Men Tshirt
+Add to cart" from "By.xpath: /html/body/section[2]/div/div/div[2]/div[1]/div[3]/div/div[1]/div[2]".
+[INFO ] 2024-02-12 11:40:16.662 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-02-12 11:40:16.899 [main] ReportManager - Click "Add to cart".
+[INFO ] 2024-02-12 11:40:17.070 [main] ReportManager - Get text "Add to cart" from "Add to cart".
+[INFO ] 2024-02-12 11:40:17.301 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-02-12 11:40:19.253 [main] ReportManager - Click "By.xpath: //u[normalize-space()='View Cart']".
+[INFO ] 2024-02-12 11:40:19.545 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-02-12 11:40:21.387 [main] ReportManager - Click "Proceed To Checkout".
+[INFO ] 2024-02-12 11:40:22.695 [main] ReportManager - Click "Place Order".
+[INFO ] 2024-02-12 11:40:22.988 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2024-02-12 11:40:23.023 [main] ReportManager - Type "test" into "By.xpath: //input[@name='name_on_card']".
+[INFO ] 2024-02-12 11:40:23.217 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2024-02-12 11:40:23.232 [main] ReportManager - Type "22222" into "By.xpath: //input[@name='card_number']".
+[INFO ] 2024-02-12 11:40:23.397 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2024-02-12 11:40:23.412 [main] ReportManager - Type "222" into "ex. 311".
+[INFO ] 2024-02-12 11:40:23.555 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2024-02-12 11:40:23.567 [main] ReportManager - Type "2" into "MM".
+[INFO ] 2024-02-12 11:40:23.692 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2024-02-12 11:40:23.708 [main] ReportManager - Type "1222" into "YYYY".
+[INFO ] 2024-02-12 11:40:23.911 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-02-12 11:40:27.315 [main] ReportManager - Click "Pay and Confirm Order".
+[INFO ] 2024-02-12 11:40:29.197 [main] ReportManager - Perform navigation action "Navigate BACK to https://automationexercise.com/payment".
+[INFO ] 2024-02-12 11:40:29.238 [main] ReportManager - Waiting for element to be present; elementLocator "By.xpath: /html/body/section/div/div[3]/div/div[2]/form/div[4]/div/div", isExpectedToBeVisible"false"...
+[INFO ] 2024-02-12 11:40:29.295 [main] ReportManager - Wait to be ready "Waited for the element's state of visibility to be (false). Element locator (By.xpath: /html/body/section/div/div[3]/div/div[2]/form/div[4]/div/div)" against "By.xpath: /html/body/section/div/div[3]/div/div[2]/form/div[4]/div/div".
+[INFO ] 2024-02-12 11:40:29.435 [main] ReportManager - Get text "Your order has been placed successfully!" from "By.xpath: /html/body/section/div/div[3]/div/div[2]/form/div[4]/div/div".
+[INFO ] 2024-02-12 11:40:29.653 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-02-12 11:40:32.301 [main] ReportManager - Click "Pay and Confirm Order".
+[INFO ] 2024-02-12 11:41:32.446 [main] ReportManager - Expected condition failed: waiting for com.shaft.gui.element.internal.ElementActionsHelper$$Lambda/0x000001809d7294d8@5dc9cb99 (tried for 60 second(s) with 100 milliseconds interval) || Unable to locate element: /html/body/section/div/div[3]/div/div[2]/form/div[4]/div/div
+[INFO ] 2024-02-12 11:41:32.464 [main] ReportManager - Failed to Get text from "By.xpath: /html/body/section/div/div[3]/div/div[2]/form/div[4]/div/div".
+[INFO ] 2024-02-12 11:41:34.716 [main] ReportManager - Assertion "ValidateElementAttribute" FAILED. Expected "Value Should be 'Value Should be 'Your order has been placed successfully!' for the 'text' attribute, element locator 'By.xpath: /html/body/section/div/div[3]/div/div[2]/form/div[4]/div/div'" and Actual "Failed to read the desired element attribute". Comparison Type "CONTAINS". Validation Type "POSITIVE".
+[INFO ] 2024-02-12 11:41:34.749 [main] ReportManager - Successfully created attachment 'Screenshot - 1707730892533_loginBeforeCheckoutTc16_ValidateElementAttribute_failed'
+[INFO ] 2024-02-12 11:41:34.751 [main] ReportManager - Successfully created attachment 'Validation Test Data - Failure Reason'
+[INFO ] 2024-02-12 11:41:34.765 [main] ReportManager - Successfully created attachment 'Validations helper - Get  stack  trace - Exception Stacktrace'
+[INFO ] 2024-02-12 11:41:34.783 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: loginBeforeCheckoutTc16'
+[INFO ] 2024-02-12 11:41:34.784 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                             Finished Execution of Test Method: 'CheckOutTests.CheckoutTest.loginBeforeCheckoutTc16'                             
+                                                              Test Status: 'Failed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-02-12 11:41:34.827 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of flush configuration method                                                
+                                                       'CheckOutTests.CheckoutTest.flush'                                                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-02-12 11:41:36.478 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-02-12 11:41:36.482 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: flush'
+[INFO ] 2024-02-12 11:41:36.493 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine teardown configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTeardown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-02-12 11:41:36.495 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2024-02-12 11:41:36.497 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2024-02-12 11:41:36.498 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".

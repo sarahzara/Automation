@@ -1,0 +1,10 @@
+[ReportManager] Successfully created attachment 'SHAFT Engine Logs - Execution log' @12-02-2024 11:41:36.0495 AM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"". @12-02-2024 11:41:36.0497 AM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"". @12-02-2024 11:41:36.0498 AM
+[ReportManager] File Action "ReadFileAsByteArray" successfully performed. With the following test data "File Path: "C:\Users\sara.omara\IdeaProjects\automationexercise\target\logs\log4j.log"". @12-02-2024 11:41:36.0545 AM
+[ReportManager] File Action "DeleteFile" successfully performed. With the following test data "Target File Path: "target/logs/log4j.log", file was not deleted.". @12-02-2024 11:41:36.0546 AM
+[ReportManager] Successfully created attachment 'SHAFT Engine Logs - Execution log: 20240212-114136' @12-02-2024 11:41:36.0554 AM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "allure-results/cucumberReport.html"". @12-02-2024 11:41:37.0055 AM
+[ReportManager] Successfully created attachment 'HTML - Checkpoints Report' @12-02-2024 11:41:37.0065 AM
+[ReportManager] Issue Summary: Total Issues = 1, New issues for Failed Tests = 1, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details. @12-02-2024 11:41:37.0088 AM
+[ReportManager] Successfully created attachment 'SHAFT Engine Logs - Issues log CSV: 20240212-114137' @12-02-2024 11:41:37.0089 AM
